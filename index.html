@@ -26,7 +26,7 @@ const id = $('#input').val().match(/\d+/)[0];
     }
 });*/
 $.get(
-    "http://kobato.unihedro.com:5000/"+id,
+    "https://kobato.unihedro.com:5000/"+id,
     function(data, textstatus, XMLHttpRequest){
         data = JSON.parse(data);
         var str = '';
